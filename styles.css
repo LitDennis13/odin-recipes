@@ -1,0 +1,53 @@
+* {
+    font-family: Verdana, sans-serif;
+}
+html {
+    background-color: rgb(170,170,255);
+}
+h1 {
+    font-size: 50px;
+    color: rgb(255,255,255);
+}
+h2 {
+    font-size: 30px;
+}
+p, li{
+    font-size: 20px;
+}
+
+#title {
+    text-align: center;
+}
+
+.indextitle {
+    font-size: 75px;
+}
+
+
+#description {
+    color: rgb(0, 255, 119);
+}
+
+#ingredients {
+    color: rgb(0, 119, 255);
+}
+
+#steps {
+    color: rgb(255, 0, 119);
+}
+
+
+#home_page_list {
+    text-align: center;
+    list-style-type: none;
+}
+
+
+a {
+    color: rgb(50,50,255);
+    font-weight: bold;
+}
+
+#home_page_list a {
+    font-size: 40px;
+}
