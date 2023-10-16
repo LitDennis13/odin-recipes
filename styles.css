@@ -24,16 +24,33 @@ p, li{
 }
 
 
-#description {
+#description_text {
     color: rgb(0, 255, 119);
 }
 
-#ingredients {
+#ingredients_text {
     color: rgb(0, 119, 255);
 }
 
-#steps {
+#steps_text {
     color: rgb(255, 0, 119);
+}
+
+#description_div, #ingredients_div, #steps_div {
+    margin: 20px auto;
+    padding: 5px 25px; 
+}
+
+#description_div {
+    border: 2px dotted rgb(0, 255, 119);
+}
+
+#ingredients_div {
+    border: 2px dotted rgb(0, 119, 255);
+}
+
+#steps_div {
+    border: 2px dotted rgb(255, 0, 119);
 }
 
 
@@ -43,11 +60,34 @@ p, li{
 }
 
 
+
+
 a {
     color: rgb(50,50,255);
     font-weight: bold;
 }
-
-#home_page_list a {
+.peposa, .baked, .bibi {
     font-size: 40px;
+    border: 10px solid rgb(110,110,255);
+    text-decoration: none;
 }
+
+.peposa {  
+    padding: 20px;
+}
+.baked {
+    padding: 20px;
+}
+.bibi {
+    padding: 20px;
+}
+#home_page_options {
+    margin-top: 100px;
+}
+
+#home_page_list li {
+    display: inline-block;
+    margin: 35px 10px;
+}
+
+
